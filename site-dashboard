@@ -39,32 +39,32 @@ Não está documentado e estou com preguiça de fazer isso é só pra salvar mes
     </div>
     -->
     <div class="redes">
-        <a href="https://www.twitch.tv" target="_blank">
+        <a href="link da Twitch" target="_blank">
             <img src="https://pngimg.com/uploads/twitch/twitch_PNG18.png" alt="Twitch">
         </a>
-        <a href="https://discordapp.com/channels/@me" target="_blank">
+        <a href="link do Discord" target="_blank">
             <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1.png" alt="Dsicord">
         </a>
-        <a href="https://www.youtube.com" target="_blank">
+        <a href="link do Youtube" target="_blank">
             <img src="https://i.pinimg.com/originals/60/00/5d/60005d802c2876c821bdab2bbdb9af2a.png" alt="YouTube">
         </a>
-        <a href="https://www.behance.net/abnerdepaula" target="_blank">
+        <a href="link do Behance" target="_blank">
             <img src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Behance-512.png" alt="">
         </a>
-        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+        <a href="link do Gmail" target="_blank">
             <img src="https://image.flaticon.com/icons/png/512/281/281769.png" alt="Gmail">
         </a>
-        <a href="https://streamlabs.com/dashboard#/stats" target="_blank">
+        <a href="link do Streamlabs" target="_blank">
             <img src="https://theme.zdassets.com/theme_assets/948919/d80b722da9edc37805def78a512b90c5772434a6.png" alt="Streamlabs">
         </a>
-        <a href="https://gamejolt.com/discover" target="_blank">
+        <a href="link da Gamejolt" target="_blank">
             <img src="https://img.icons8.com/material/480/game-jolt.png" alt="">
         </a>
-        <a href="https://itch.io" target="_blank">
+        <a href="link da Itch.io" target="_blank">
             <img src="https://static.itch.io/images/itchio-textless-black.svg" alt="">
         </a>
-        <a href="" target="_blank">
-            <img src="https://1.bp.blogspot.com/-0SV-IJxOw-A/Xn5Y1UdFEAI/AAAAAAAAQ_4/xNR2e-uogicdN8KqKfS2I1tWwpT0qIxdwCLcBGAsYHQ/s1600/add%252B.png" alt="">
+        <a href="add mais links" target="_blank">
+            <img src="img no meu repositório online de imagens" alt="">
         </a>
     </div>
 </body>
