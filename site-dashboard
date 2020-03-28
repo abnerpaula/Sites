@@ -1,0 +1,261 @@
+HTML
+Não está documentado e estou com preguiça de fazer isso é só pra salvar mesmo.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="https://freepngimg.com/thumb/emoji/78069-meaning-emoji-ok-emojipedia-hand-free-clipart-hq-thumb.png" />
+    <link rel="stylesheet" href="index.css">
+    <script src="relogio.js"></script>
+    <title>Ola</title>
+</head>
+<body onload="moveRelogio()">
+    <div class="back">
+        <p>
+            DASHBOARD
+        </p>
+    </div>
+    <!--
+    <div class="menu">
+        <a href="páginas/portifolio.html">
+            Portifólio
+        </a>
+        <a href="páginas/projetos.html">
+            Projetos
+        </a>
+        <a href="páginas/galeria.html">
+            Galeria
+        </a>
+    </div>
+    <div class="cont">
+        <p class="titulo">
+            ola pessoa
+        </p>
+        <p class="texto">
+            seja bem vindo ao meu web site
+        </p>
+    </div>
+    -->
+    <div class="redes">
+        <a href="https://www.twitch.tv" target="_blank">
+            <img src="https://pngimg.com/uploads/twitch/twitch_PNG18.png" alt="Twitch">
+        </a>
+        <a href="https://discordapp.com/channels/@me" target="_blank">
+            <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1.png" alt="Dsicord">
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="https://i.pinimg.com/originals/60/00/5d/60005d802c2876c821bdab2bbdb9af2a.png" alt="YouTube">
+        </a>
+        <a href="https://www.behance.net/abnerdepaula" target="_blank">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Behance-512.png" alt="">
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+            <img src="https://image.flaticon.com/icons/png/512/281/281769.png" alt="Gmail">
+        </a>
+        <a href="https://streamlabs.com/dashboard#/stats" target="_blank">
+            <img src="https://theme.zdassets.com/theme_assets/948919/d80b722da9edc37805def78a512b90c5772434a6.png" alt="Streamlabs">
+        </a>
+        <a href="https://gamejolt.com/discover" target="_blank">
+            <img src="https://img.icons8.com/material/480/game-jolt.png" alt="">
+        </a>
+        <a href="https://itch.io" target="_blank">
+            <img src="https://static.itch.io/images/itchio-textless-black.svg" alt="">
+        </a>
+        <a href="" target="_blank">
+            <img src="https://1.bp.blogspot.com/-0SV-IJxOw-A/Xn5Y1UdFEAI/AAAAAAAAQ_4/xNR2e-uogicdN8KqKfS2I1tWwpT0qIxdwCLcBGAsYHQ/s1600/add%252B.png" alt="">
+        </a>
+
+        <div class="secret">
+            <a href="https://www.instagram.com/zeitonazeda/" target="_blak">
+                <img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Instagram_icon-icons.com_66804.png" alt="">
+            </a>
+            <a href="https://twitter.com/sogross__" target="_blank">
+                <img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+CSS
+Iden html
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    background: #1b1b1b;
+}
+
+::-webkit-scrollbar{
+    background: #1b1b1b;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #cecece;
+    border-radius: 100px;
+}
+
+.back{
+    max-width: 100%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.back p{
+    max-width: 100%;
+    font-size: 60pt;
+    font-family: Helvetica;
+    font-weight: bold;
+    cursor: default;
+    float: left;
+    color: #cecece;
+}
+
+a{
+    text-decoration: none;
+    color: #cecece;
+    font-style: normal;
+    font-size: 20pt;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+/*
+.menu{
+    width: 80%;
+    float: left;
+    padding-left: 70px;
+}
+.menu a:hover{
+    font-style: italic;
+}
+*/
+.cont{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.cont p{
+    padding-left: 80px;
+}
+
+.titulo{
+    height: 100%;
+    font-size: 25pt;
+    font-style: italic;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.texto{
+    height: 100%;
+    font-size: 15pt;
+    word-wrap: break-word;
+}
+
+.redes{
+    width: 80%;
+    padding-left: 65px;
+    padding-top: 10px;
+    float: left;
+}
+.redes img{
+    width: 30px;
+    filter: grayscale(100%);
+    background: #cecece;
+    float: left;
+}
+.redes a{
+    padding: 15px;
+    border-radius: 50px;
+    background: #cecece;
+    transition: transform 0.3s, box-shadow 0.4s;
+    float: left;
+}
+.redes a:hover{
+    transform: scale(1.2);
+}
+
+.info{
+    width: 80%;
+    padding-left: 80px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+.info input{
+    width: 80%;
+    border: none;
+    font-size: 30pt;
+    cursor: default;
+    color: #cecece;
+    outline: none;
+    padding: 0 auto;
+    float: left;
+    margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 780px) {
+    .back{
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .back p{
+        font-size: 30pt;
+    }
+
+    .menu{
+        padding-left: 10px;
+    }
+    a{
+        font-size: 12pt;
+    }
+    
+    .cont p{
+        padding-left: 20px;
+    }
+    .redes{
+        padding-left: 10px;
+    }
+    .info{
+        padding-left: 20px;
+    }
+    .info input{
+        width: 100%;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .secret{
+        display: none;
+    }
+}
+
+JS
+É só para o sistema de data do site mais nada, talvez eu vá adicionar mais alguma coisa futuramente, mas por enquanto é só isso.
+
+function moveRelogio(){
+    momentoAtual = new Date()
+    hora = momentoAtual.getHours()
+    minuto = momentoAtual.getMinutes()
+    segundo = momentoAtual.getSeconds()
+
+    horaImprimivel = hora + ":" + minuto + ":" + segundo
+
+    document.form_relogio.relogio.value = horaImprimivel
+
+    
+    setTimeout("moveRelogio()",1000)
+
+    ano = momentoAtual.getFullYear()
+    dia = momentoAtual.getDay()
+    diaN = momentoAtual.getDate()
+    semana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"]
+    essemes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Dezembro"]
+
+    document.form_relogio.diaSemana.value = `Hoje é ` + semana[dia] + `, ` + diaN + ` de ` + essemes[momentoAtual.getMonth()] + ` de ` + ano
+}
