@@ -17,27 +17,6 @@ Não está documentado e estou com preguiça de fazer isso é só pra salvar mes
             DASHBOARD
         </p>
     </div>
-    <!--
-    <div class="menu">
-        <a href="páginas/portifolio.html">
-            Portifólio
-        </a>
-        <a href="páginas/projetos.html">
-            Projetos
-        </a>
-        <a href="páginas/galeria.html">
-            Galeria
-        </a>
-    </div>
-    <div class="cont">
-        <p class="titulo">
-            ola pessoa
-        </p>
-        <p class="texto">
-            seja bem vindo ao meu web site
-        </p>
-    </div>
-    -->
     <div class="redes">
         <a href="link da Twitch" target="_blank">
             <img src="https://pngimg.com/uploads/twitch/twitch_PNG18.png" alt="Twitch">
